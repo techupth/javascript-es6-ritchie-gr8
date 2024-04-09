@@ -10,5 +10,9 @@ let additionalOrders = [
 ];
 
 // Start coding here
+const newOrders = [
+  ...orders,
+  ...additionalOrders,
+]
 
 console.log(newOrders);
